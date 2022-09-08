@@ -8,7 +8,7 @@ body {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 320px) {
   body {
     padding-top: 56px;
   }
@@ -31,6 +31,10 @@ body {
 .jhtr-cta {
   background-color: #0d82df;
   border-color: #0d82df;
+}
+
+.black-bg {
+  background: #000;
 }
 
 .logo-inline{position:relative;padding:20px 0;text-align:center}
