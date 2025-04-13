@@ -11,28 +11,78 @@
 
     gtag('config', 'UA-70954143-2');
   </script>
+  
+  <!-- TODO: Future upgrade to Google Analytics 4 (GA4) 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MEASUREMENT_ID');
+  </script>
+  -->
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Jumbo Holdsworth Mountain Race
-		31TH ANNIVERSARY EVENT - SATURDAY 25th JANUARY 2025
+		32ND ANNIVERSARY EVENT - SATURDAY 24th JANUARY 2026
 		24KM JUMBO-HOLDSWORTH MAIN TRAIL RACE OR 12KM HOOPER LOOP SHORT COURSE
 		Mountain Endurance race in the Tararua Forest Park, run with the consent of the Department of Conservation">
-  <meta name="author" content="">
+  <meta name="author" content="Jumbo-Holdsworth Trail Race Team">
+  <meta name="keywords" content="trail race, mountain race, Tararua, endurance, New Zealand, Jumbo-Holdsworth, Holdsworth, trail running, mountain running, Hooper Loop">
 
-  <title>Jumbo-Holdsworth Trail Race</title>
-  <link rel="canonical" href="http://jumbo-holdsworth.co.nz/" />
+  <title>Jumbo-Holdsworth Trail Race - 32nd Anniversary Event</title>
+  <link rel="canonical" href="https://jumbo-holdsworth.co.nz/" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="The 31st Anniversary Jumbo-Holdsworth Trail Race - Sat 25th January, 2025" />
-  <meta property="og:url" content="http://jumbo-holdsworth.co.nz/" />
+  <meta property="og:title" content="The 32nd Anniversary Jumbo-Holdsworth Trail Race - Sat 24th January, 2026" />
+  <meta property="og:url" content="https://jumbo-holdsworth.co.nz/" />
   <meta property="og:site_name" content="Jumbo-Holdsworth Trail Race" />
-  <meta property="og:image" content="http://jumbo-holdsworth.co.nz/images/social-media-2023.jpg" />
-  <meta property="og:image:secure_url" content="http://jumbo-holdsworth.co.nz/images/social-media-2023.jpg" />
+  <meta property="og:image" content="https://jumbo-holdsworth.co.nz/images/social-media-2023.jpg" />
+  <meta property="og:image:secure_url" content="https://jumbo-holdsworth.co.nz/images/social-media-2023.jpg" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The 31st Anniversary Jumbo-Holdsworth Trail Race - Sat 25th January, 2025" />
-  <meta name="twitter:image" content="http://jumbo-holdsworth.co.nz/images/social-media-2023.jpg" />
+  <meta name="twitter:title" content="The 32nd Anniversary Jumbo-Holdsworth Trail Race - Sat 24th January, 2026" />
+  <meta name="twitter:image" content="https://jumbo-holdsworth.co.nz/images/social-media-2023.jpg" />
+  
+  <!-- Schema.org markup for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": "32nd Anniversary Jumbo-Holdsworth Trail Race",
+    "description": "Iconic New Zealand mountain running race in the Tararua Forest Park with 24km main race and 12km Hooper Loop short course options",
+    "image": "https://jumbo-holdsworth.co.nz/images/social-media-2023.jpg",
+    "url": "https://jumbo-holdsworth.co.nz/",
+    "startDate": "2026-01-24T08:00:00+13:00",
+    "endDate": "2026-01-24T16:00:00+13:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Mt Holdsworth, Tararua Forest Park",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Masterton",
+        "addressRegion": "Wellington",
+        "addressCountry": "NZ"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://jumbo-holdsworth.co.nz/enter.html",
+      "price": "80",
+      "priceCurrency": "NZD",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2025-09-01"
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Jumbo-Holdsworth Trail Race",
+      "url": "https://jumbo-holdsworth.co.nz/"
+    }
+  }
+  </script>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -77,6 +127,9 @@
               <a class="dropdown-item" href="results.html">All Results</a>
               <a class="dropdown-item" href="course-records.html">Course Records</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
           </li>
         </ul>
       </div>
@@ -127,147 +180,222 @@
   </header>
 
   <!-- Page Content -->
-  <div class="container">
+  <main class="container">
 
     <h1 class="my-4">Jumbo-Holdsworth Trail Race</h1>
 
     <!-- Call to Action Section -->
-    <div class="row mb-4">
+    <section class="row mb-4" aria-labelledby="registration-info">
       <div class="col-md-8">
-        <p>Entries for the 2025 race, to be held Auckland Anniversary Weekend - Saturday 25th Jan 2025 - <a href="enter.html">are now open!</a> <br />
-
+        <p>Entries for the 2026 race, to be held Auckland Anniversary Weekend - <time datetime="2026-01-24">Saturday 24th Jan 2026</time> - Will open Saturday 2nd August<br />
         </p>
       </div>
       <div class="col-md-4">
-        <a class="btn btn-lg btn-primary btn-block" href="enter.html">Entry Info</a>
+        <a class="btn btn-lg btn-primary btn-block" href="enter.html" role="button">Entry Info</a>
       </div>
-    </div>
+    </section>
 
-    <!-- Features Section -->
-    <div class="row">
+    <!-- Event Details Section -->
+    <section class="row" aria-labelledby="event-details">
       <div class="col-lg-6">
-        <h2>SATURDAY 25th JANUARY 2025</h2>
+        <h2 id="event-details"><time datetime="2026-01-24">SATURDAY 24th JANUARY 2026</time></h2>
         <p>Choose your race:</p>
         <ul>
           <li>
-            <strong>Podium Direction - Jumbo->Holdsworth</strong><br /> Max 130 Entries - 24km - 1500m Elevation
+            <strong>Podium Direction - Jumbo→Holdsworth</strong><br /> 
+            <span class="race-details">Max 130 Entries - 24km - 1500m Elevation</span>
           </li>
           <li>
-            <strong>Holdsworth->Jumbo</strong><br />Max 130 Entries - 24km - 1500m Elevation
+            <strong>Holdsworth→Jumbo</strong><br />
+            <span class="race-details">Max 130 Entries - 24km - 1500m Elevation</span>
           </li>
           <li>
-            <strong>Hooper Loop Trail Race </strong><br />12km - 500m Elevation
+            <strong>Hooper Loop Trail Race</strong><br />
+            <span class="race-details">12km - 500m Elevation</span>
           </li>
         </ul>
         <p>For more detailed information go to <a href="event-info.html">Course Descriptions</a></p>
-        <p>
-          <a href="https://www.facebook.com/jumboholdsworthtrailrace/">
+        <div class="social-links">
+          <a href="https://www.facebook.com/jumboholdsworthtrailrace/" aria-label="Follow us on Facebook">
             <img src="images/logos/FB-FindUsonFacebook-online-100.png" alt="Jumbo Holdsworth Trail Race on Facebook"
-              title="Jumbo Holdsworth Trail Race on Facebook">
+              title="Jumbo Holdsworth Trail Race on Facebook" width="100">
           </a>
-          <a href="https://www.instagram.com/jumbo_holdsworth_trail_race">
+          <a href="https://www.instagram.com/jumbo_holdsworth_trail_race" aria-label="Follow us on Instagram">
             <img src="images/logos/findus-instagram.png" alt="Jumbo Holdsworth Trail Race on Instagram"
-              title="Jumbo Holdsworth Trail Race on Instagram">
+              title="Jumbo Holdsworth Trail Race on Instagram" width="100">
           </a>
-        </p>
+        </div>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded" src="images/homepage-01.jpg" alt="">
+        <img class="img-fluid rounded" src="images/homepage-01.jpg" alt="Trail runner in the beautiful Tararua Ranges during the Jumbo-Holdsworth race" loading="lazy">
       </div>
-    </div>
-    <div class="row">
-      <h4>Want to help out? We would love to have keen people volunteer! <br />
-        Contact <a
-      href="mailto:race@jumbo-holdsworth.co.nz?Subject=Volunteering @ Jumbo-Holdsworth Trail Race"
-      target="_top">race@jumbo-holdsworth.co.nz</a> if you want to be a part of the event</h4>
-    </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section class="row" aria-labelledby="volunteer-info">
+      <div class="col-12">
+        <h3 id="volunteer-info">Want to help out? We would love to have keen people volunteer!</h3>
+        <p>Contact <a href="mailto:race@jumbo-holdsworth.co.nz?Subject=Volunteering @ Jumbo-Holdsworth Trail Race"
+        target="_top">race@jumbo-holdsworth.co.nz</a> if you want to be a part of the event</p>
+      </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="row mt-4" aria-labelledby="faq-info">
+      <div class="col-12">
+        <div class="alert alert-info">
+          <h3 id="faq-info" class="h4">Have Questions?</h3>
+          <p>Check out our <a href="faq.html">Frequently Asked Questions</a> page for answers to common queries about the race, registration, course details, and more.</p>
+        </div>
+      </div>
+    </section>
     <!-- /.row -->
 
     <hr>
-    <div class="box">
-      <h2>Thanks to our sponsors: </h2>
-      <ul class="logo-inline" style="position: relative;  padding: 20px 0;  text-align: center;">
+    <!-- Sponsors Section -->
+    <section class="sponsors-section" aria-labelledby="sponsors-heading">
+      <h2 id="sponsors-heading">Thanks to our sponsors: </h2>
+      <ul class="logo-inline" style="position: relative; padding: 20px 0; text-align: center;">
         <li>
-          <a class="clarevillebakery_logo" href="https://www.theclarevillebakery.co.nz/" target="_blank">
-            <img src="images/logos/theclarevillebakery.png">
+          <a class="sponsor-link" href="https://www.theclarevillebakery.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/theclarevillebakery.png" alt="The Clareville Bakery" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="baylands_logo" href="https://baylands.beer/" target="_blank">
-            <img src="images/logos/bb_logo_simple_colour-smaller.jpg">
+          <a class="sponsor-link" href="https://baylands.beer/" target="_blank" rel="noopener">
+            <img src="images/logos/bb_logo_simple_colour-smaller.jpg" alt="Baylands Brewery" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="macpac_logo" href="http://www.macpac.co.nz/" target="_blank">
-            <img src="images/logos/macpac-logo.png">
+          <a class="sponsor-link" href="https://www.macpac.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/macpac-logo.png" alt="Macpac" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="wellington_refridgeration_scaled" href="https://www.tailwindnutrition.co.nz/" target="_blank">
-            <img src="images/logos/tailwind_tag_smaller.png">
+          <a class="sponsor-link" href="https://www.tailwindnutrition.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/tailwind_tag_smaller.png" alt="Tailwind Nutrition" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="runwellington_logo" href="https://wairarapaeggs.co.nz/" target="_blank">
-            <img src="images/logos/wairarapa-eggs-smaller.png">
+          <a class="sponsor-link" href="https://wairarapaeggs.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/wairarapa-eggs-smaller.png" alt="Wairarapa Eggs" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="amalgamated_logo" href="https://www.amalgamatedheli.co.nz/" target="_blank">
-            <img src="images/logos/amalgamated_scaled.png">
+          <a class="sponsor-link" href="https://www.amalgamatedheli.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/amalgamated_scaled.png" alt="Amalgamated Helicopters" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="wellington_refridgeration_scaled" href="https://www.wellingtonrefrigeration.co.nz/" target="_blank">
-            <img src="images/logos/wellington_refridgeration_scaled.png">
+          <a class="sponsor-link" href="https://www.wellingtonrefrigeration.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/wellington_refridgeration_scaled.png" alt="Wellington Refrigeration" loading="lazy">
           </a>
         </li>
         <li>
-          <a class="wellington_refridgeration_scaled" href="https://www.lacloche.co.nz/" target="_blank">
-            <img src="images/logos/la-cloche-smaller.png"> 
+          <a class="sponsor-link" href="https://www.lacloche.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/la-cloche-smaller.png" alt="La Cloche" loading="lazy"> 
           </a>
         </li>
         <li>
-          <a class="trust_house_logo" href="http://www.trusthouse.co.nz/" target="_blank">
-            <img src="images/logos/Trust-House-Logo-green-smaller.jpg">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="box">
-      <h2>And please make sure you check out our charity partners: </h2>
-      <ul class="logo-inline" style="position: relative;  padding: 20px 0;  text-align: center;">
-        <li>
-          <a class="macpac_logo" href="https://holdsworthrestorationtrust.org/" target="_blank">
-            <img src="images/logos/holdsworth-trust.png">
-          </a>
-        </li>
-        <li>
-          <a class="macpac_logo" href="https://landsarwellington.org.nz" target="_blank">
-            <img src="images/logos/LandSAR-colour-logo-smaller.png">
+          <a class="sponsor-link" href="https://www.trusthouse.co.nz/" target="_blank" rel="noopener">
+            <img src="images/logos/Trust-House-Logo-green-smaller.jpg" alt="Trust House" loading="lazy">
           </a>
         </li>
       </ul>
-    </div>
-  </div>
+    </section>
+
+    <!-- Charity Partners Section -->
+    <section class="charity-partners-section" aria-labelledby="charity-heading">
+      <h2 id="charity-heading">And please make sure you check out our charity partners: </h2>
+      <ul class="logo-inline" style="position: relative; padding: 20px 0; text-align: center;">
+        <li>
+          <a class="charity-link" href="https://holdsworthrestorationtrust.org/" target="_blank" rel="noopener">
+            <img src="images/logos/holdsworth-trust.png" alt="Holdsworth Restoration Trust" loading="lazy">
+          </a>
+        </li>
+        <li>
+          <a class="charity-link" href="https://landsarwellington.org.nz" target="_blank" rel="noopener">
+            <img src="images/logos/LandSAR-colour-logo-smaller.png" alt="LandSAR Wellington" loading="lazy">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
   <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Jumbo-Holdsworth Trail Race 2017-2023</p>
-      <p class="m-0 text-center text-white">Organisers Contact Details: Andrew Thompson Email: <a
-          href="mailto:race@jumbo-holdsworth.co.nz?Subject=Info regarding Jumbo-Holdsworth Trail Race"
-          target="_top">race@jumbo-holdsworth.co.nz</a></p>
+      <p class="m-0 text-center text-white">Copyright &copy; Jumbo-Holdsworth Trail Race 2017-2025</p>
+      <div class="m-0 text-center text-white">
+        <p>Organisers Contact Details: Andrew Thompson</p>
+        <p>Email: <a href="mailto:race@jumbo-holdsworth.co.nz?Subject=Info regarding Jumbo-Holdsworth Trail Race"
+            target="_top" class="text-white">race@jumbo-holdsworth.co.nz</a></p>
+      </div>
+      <nav class="footer-nav text-center mt-3">
+        <a href="index.html" class="text-white mx-2">Home</a>
+        <a href="event-info.html" class="text-white mx-2">Event Info</a>
+        <a href="enter.html" class="text-white mx-2">Entry</a>
+        <a href="results.html" class="text-white mx-2">Results</a>
+        <a href="course-records.html" class="text-white mx-2">Course Records</a>
+      </nav>
     </div>
-
     <!-- /.container -->
   </footer>
+
+  <!-- FAQ Schema for AI search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "When is the 2026 Jumbo-Holdsworth Trail Race?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The 32nd Anniversary Jumbo-Holdsworth Trail Race will be held on Saturday, January 24th, 2026 during Auckland Anniversary Weekend."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What distances are available in the Jumbo-Holdsworth race?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There are two main options: the 24km Jumbo-Holdsworth/Holdsworth-Jumbo main trail race with 1500m elevation, and the 12km Hooper Loop short course with 500m elevation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I register for the Jumbo-Holdsworth Trail Race?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Registration is available online through our Entry page. The main race costs $80 and the Hooper Loop costs $60."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between the Jumbo-Holdsworth and Holdsworth-Jumbo directions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both follow the same circuit but in opposite directions. The Jumbo-Holdsworth (anti-clockwise) direction features a flat fast start with a very steep climb, while the Holdsworth-Jumbo (clockwise) direction features a graded climb and technical downhill with a flat finish."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a limit on the number of participants?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, each direction on the main course is limited to 130 competitors, and there's a total limit of 300 competitors for the event."
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 
