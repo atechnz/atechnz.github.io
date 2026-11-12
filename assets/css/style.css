@@ -369,5 +369,8 @@ table.records td:first-child { font-weight: 700; width: 34%; }
 @media (max-width: 520px) {
   .banner { height: 180px; }
   .logos a, .logos span { width: 108px; height: 64px; }
+  /* Keep logos inside the smaller tiles (tile size minus 10px padding each side) */
+  .logos img { max-width: 88px; max-height: 44px; }
+  .logos.small img { max-width: 108px; max-height: 54px; }
   .results-list li { grid-template-columns: 1fr; gap: 2px; }
 }
